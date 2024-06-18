@@ -20,10 +20,13 @@ This project builds and execute an End-To-End Data Engineering Project on Real-T
 
 To get started with the project:
 
-1. **Set up Kafka**: Follow the steps documented in kafka_command.txt:
+1. **Set up Kafka**: Follow the steps documented in kafka_command.txt
 
-2. **Create S3 bucket**: Create another window and activate your conda environment. Start the Prefect API server locally with 
-
-    ```bash
-    prefect server start
-    ```
+2. **Create S3 bucket**
+   
+3. **Setup Glue Crawler**
+   
+4. **Create Glue Data Catalog**
+   
+5. **Connect to AWS Athena**: Make queries with Athena
+   <img src="src/athena.png">
