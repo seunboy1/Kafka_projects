@@ -29,4 +29,5 @@ To get started with the project:
 4. **Create Glue Data Catalog**
    
 5. **Connect to AWS Athena**: Make queries with Athena
+   
    <img src="src/athena.png">
