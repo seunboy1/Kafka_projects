@@ -16,3 +16,14 @@ This project builds and execute an End-To-End Data Engineering Project on Real-T
   - EC2: A web service that provides secure, resizable compute capacity in the cloud.
 - Apache Kafka: A distributed streaming platform used for building real-time data pipelines and streaming applications.
 
+# Getting Started
+
+To get started with the project:
+
+1. **Set up Kafka**: Follow the steps documented in kafka_command.txt:
+
+2. **Create S3 bucket**: Create another window and activate your conda environment. Start the Prefect API server locally with 
+
+    ```bash
+    prefect server start
+    ```
