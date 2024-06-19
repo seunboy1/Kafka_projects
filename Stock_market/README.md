@@ -6,6 +6,7 @@ This project builds and execute an End-To-End Data Engineering Project on Real-T
 To goal of this project is to load data from a CSV file in real time (simulating real time stock market ingestion) and store it in Athena.
 
 ## Steps 
+- Install necessary libraries
 - Create topic
 - Create a python kafka producer 
 - Create a python kafka consumer 
