@@ -3,6 +3,16 @@
 ## Introduction 
 This project builds and execute an End-To-End Data Engineering Project on Real-Time Stock Market Data using Kafka. Here we use different technologies such as Python, Amazon Web Services (AWS), Apache Kafka, Glue, Athena, and SQL.
 
+To goal of this project is to load data from a CSV file in real time (simulating real time stock market ingestion) and store it in Athena.
+
+## Steps 
+- Create topic
+- Create a python kafka producer 
+- Create a python kafka consumer 
+- Load and read each row from the CSV every 1 second
+- Store in s3 as a json file
+- Load in Athena
+
 ## Architecture 
 <img src="src/Architecture.jpg">
 
@@ -26,7 +36,7 @@ To get started with the project:
    
 3. **Setup Glue Crawler**
    
-4. **Create Glue Data Catalog**
+4. **Create Glue Data Catalog**: Build a catalog from the crawled data
    
 5. **Connect to AWS Athena**: Make queries with Athena
    
