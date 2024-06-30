@@ -11,7 +11,7 @@ To goal of this project is to load data from a CSV file in real time (simulating
 - Create a python kafka producer 
 - Create a python kafka consumer 
 - Load and read each row from the CSV every 1 second
-- Store in s3 as a json file
+- Store each row to s3 as a json file
 - Load in Athena
 
 ## Architecture 
