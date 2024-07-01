@@ -42,3 +42,4 @@ To get started with the project:
 5. **Connect to AWS Athena**: Make queries with Athena
    
    <img src="src/athena.png">
+   
